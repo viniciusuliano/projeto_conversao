@@ -86,7 +86,9 @@ function App() {
     { code: "KHR", name: "Cambodian Riel", country: "km-KH" },
     {code: "USD", name: "United States Dollar", country: "en-US"},
   ];
-  
+
+
+  console.log(targeCode)
   
 
   async function handleConvertation(): Promise<void> {
