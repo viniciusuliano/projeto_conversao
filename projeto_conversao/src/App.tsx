@@ -8,7 +8,7 @@ function App() {
   const [moeda, setMoeda] = useState('')
   const [moedaCompra, setMoedaCompra] = useState('')
   const [responseData, setResponse] = useState(0)
-  const [targeCode, setTargetCode] = useState('')
+  const [targetCode, setTargetCode] = useState('')
   const [formatedPrice, setFormatedPrice] = useState('')
 
   const currencies = [
